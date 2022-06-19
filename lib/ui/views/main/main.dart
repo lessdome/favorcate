@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'initialize_items.dart';
+import 'main_drawer.dart';
 
 class MainScreen extends StatefulWidget {
   static const String routeName = "/main";
@@ -33,6 +34,7 @@ class _MainScreenState extends State<MainScreen> {
           });
         },
       ),
+      drawer: const MainDrawer(),
     );
   }
 }

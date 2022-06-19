@@ -22,11 +22,11 @@ class AppTheme {
       ),
       displayMedium: TextStyle(
         fontSize: normalFontSize,
-        color: Colors.black54,
+        color: Colors.black87,
       ),
       displayLarge: TextStyle(
         fontSize: largeFontSize,
-        color: Colors.black54,
+        color: Colors.black87,
       ),
     ),
   );

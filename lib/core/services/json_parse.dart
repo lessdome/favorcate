@@ -22,10 +22,6 @@ class JsonParse {
       categories.add(CategoryModel.fromJson(json));
     }
 
-    await Future(() {
-      sleep(const Duration(seconds: 3));
-    });
-
     return categories;
   }
 }
